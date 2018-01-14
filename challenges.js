@@ -13,5 +13,13 @@ module.exports = [
 		task: "Learn about a node module you've probably never used",
 		rationale: "Learning things is fun and there are so many that you've never heard of that you might want to use in the future that you'd never had known about. Go and see what one does and tell someone else",
 		tip: "`npx code-audit learn` in the root of your directory to open a random node module's npm page",
-	}
+	},
+	{
+		task: "Get rid of a warning you've got used to ignoring",
+		rationale: "These warnings are easy to learn to ignore with time, but there are two problems with that:\n\t1. Many warnings (like a deprecation warning) will turn into full-blown issues later on. This will tend to happen at inconvenient times.\n\t2. They act as a \"broken window\": an indication that your codebase isn't receiving the fastidious love and care it needs. These small messes quietly demonstrate to your team that messes are tolerated, and can often result in more. (More on \"broken windows\" https://blog.codinghorror.com/the-broken-window-theory/)",
+	},
+	{
+		task: "Let's track down some code that's not actually in use (and delete it, naturally).",
+		rationale: "I would say this one is pretty obvious but, unused code is unused. So delete it...",
+	},
 ]
